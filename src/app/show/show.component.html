@@ -1,0 +1,113 @@
+<div class="topbar">
+
+ 
+
+    <h2>Ecommerce Website</h2>
+
+ 
+
+  </div>
+
+  <h3>Customer Details</h3>
+
+<button (click)="redirectToCus()">Add Customer</button>
+
+<!-- <button (click)="redirectToAdd()">Add Products</button> -->
+
+<table class="customer-table">
+
+    <thead>
+
+        <tr>
+
+            <th>Username</th>
+
+            <th>Mobile No</th>
+
+            <th>Email</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr *ngFor="let customer of customers">
+
+            <td>{{ customer.username }}</td>
+
+            <td>{{ customer.mobileNo }}</td>
+
+            <td>{{ customer.email }}</td>
+
+ 
+
+            <td>
+
+                <button (click)="removeCustomer(customer.id)">Remove</button> <!-- Add Remove button -->
+
+              </td>
+
+        </tr>
+
+ 
+
+       
+
+    </tbody>
+
+</table>
+
+ 
+
+<h3>Product Details</h3>
+
+<button (click)="redirectToAdd()">Add Products</button>
+
+<table class="customer-table">
+
+    <thead>
+
+        <tr>
+
+            <th>ID</th>
+
+            <th>Name</th>
+
+            <th>Description</th>
+
+            <th>Price</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr *ngFor="let product of products">
+
+            <td>{{product.id}}</td>
+
+            <td>{{ product.name }}</td>
+
+            <td>{{ product.description }}</td>
+
+            <td>{{ product.price }}</td>
+
+ 
+
+            <td>
+
+                <button (click)="deleteProduct(product.id)">Remove</button> <!-- Add Remove button -->
+
+              </td>
+
+        </tr>
+
+ 
+
+       
+
+    </tbody>
+
+</table>

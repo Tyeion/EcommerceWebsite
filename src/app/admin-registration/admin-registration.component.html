@@ -1,0 +1,17 @@
+<div class="topbar">
+    <h2>Ecommerce Website</h2>
+  </div>
+  <h2>Admin Registration Page!</h2>
+  <form (ngSubmit)="Adminsave()" class="was-validated">
+  <div class="customer_info">
+  <label for="name">Admin Name:</label>
+  <input type="text" name="name" [(ngModel)]="admin.username" class="form-control" required placeholder="Enter full name">
+  <label for="email">Admin Email:</label>
+  <input type="email" name="email" [(ngModel)]="admin.email" class="form-control" required placeholder="Enter vaild emaill address">
+  <label for="password">Admin Password:</label>
+  <input type="password" name="password" [(ngModel)]="admin.password" class="form-control" required placeholder="Enter vaild password">
+  <label for="mobile">Admin Mobile:</label>
+  <input type="text" name="mobile" [(ngModel)]="admin.mobileNo" class="form-control" required placeholder="Enter vaild mobile number">
+  </div>
+  <button type="submit" class="btn">Register Admin</button>
+  </form>

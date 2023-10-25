@@ -1,0 +1,18 @@
+<div class="topbar">
+  <h2>Ecommerce Website</h2>
+</div>
+<h2>Registration Page!</h2>
+
+<form (ngSubmit)="save()" class="was-validated">
+<div class="customer_info">
+<label for="name">Customer Name:</label>
+<input type="text" name="name" [(ngModel)]="c.username" class="form-control" required placeholder="Enter full name">
+<label for="email">Customer Email:</label>
+<input type="email" name="email" [(ngModel)]="c.email" class="form-control" required placeholder="Enter vaild emaill address">
+<label for="password">Customer Password:</label>
+<input type="password" name="password" [(ngModel)]="c.password" class="form-control" required placeholder="Enter vaild password">
+<label for="mobile">Customer Mobile:</label>
+<input type="text" name="mobile" [(ngModel)]="c.mobileNo" class="form-control" required placeholder="Enter vaild mobile number">
+</div>
+<button type="submit" class="btn">Register Customer</button>
+</form>

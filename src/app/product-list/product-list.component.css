@@ -1,0 +1,95 @@
+/* Import styles from the login and registration pages for consistency */
+
+@import "../login/login.component.css";
+
+@import "../registration/registration.component.css";
+
+/* Add additional styles specific to the product-list component */
+
+/* Customize the styling as needed */
+
+.product-list {
+  display: flex;
+
+  flex-wrap: wrap; /* Allow products to wrap to the next row */
+
+  justify-content: space-between; /* Distribute products evenly horizontally */
+}
+
+.product-container {
+  flex-basis: calc(30% - 40px); /* Adjust the width of each product container */
+
+  margin: 20px;
+
+  padding: 20px;
+
+  background-color: #ffffff; /* White background like Amazon */
+
+  border: 1px solid #ddd; /* Light gray border */
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+  text-align: center;
+
+  box-sizing: border-box;
+
+  /* justify-content: center; */
+}
+
+.product-item {
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 18px;
+
+  font-weight: bold;
+
+  color: #111; /* Black text color */
+}
+
+.product-price {
+  font-size: 16px;
+
+  font-weight: bold;
+
+  color: #b12704; /* Amazon's price color */
+}
+
+.product-button {
+  background-color: #b71818; /* Amazon's button color */
+
+  color: #fff; /* White text color */
+
+  padding: 10px 10px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+
+  font-size: 16px;
+
+  font-weight: bold;
+}
+
+.product-button:hover {
+  background-color: #990000; /* Change the color on hover */
+}
+
+.product-image {
+  max-width: 100%; /* Adjust the maximum width as needed */
+
+  max-height: 200px; /* Adjust the maximum height as needed */
+
+  width: auto;
+
+  height: auto;
+
+  display: block;
+
+  margin: 0 auto;
+}

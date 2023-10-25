@@ -1,0 +1,58 @@
+/* Style the table */
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd; /* Add a border around the table */
+}
+
+/* Style table headers */
+.customer-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd; /* Add a border around table header cells */
+}
+
+/* Style table rows */
+.customer-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  border: 1px solid #ddd; /* Add a border around table cells */
+}
+
+/* Style alternate rows with a different background color */
+.customer-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect on rows */
+.customer-table tr:hover {
+  background-color: #ddd;
+}
+
+button {
+  background-color: #ff5733;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Style for the Remove buttons on hover */
+button:hover {
+  background-color: #e64a2e;
+}
+
+.topbar {
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.topbar h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin-left: 38%;
+}

@@ -1,0 +1,25 @@
+
+<div class="topbar">
+  <h2>Ecommerce Website</h2>
+</div>
+<h3>Login to your account</h3>
+<br>
+<form class="was-validated" (ngSubmit)="login()">
+<div class="login_details">
+  <label for="email"> Admin Email:</label> <br>
+  <input type="text" name="email" [(ngModel)]="email" class="form-control" required
+    placeholder="Enter valid email address"> <br> <br>
+  <label for="password">Password:</label> <br>
+ <input type="password" name="password" [(ngModel)]="password" class="form-control" required
+    placeholder="Enter correct password"> <br> <br>
+</div>
+<input type="submit" name="submit" value="Login" class="btn btn-primary"> <br> <br>
+<p class="center-text">Not a user?
+  <a [routerLink]="['/registration']">Register Yourself</a>
+  <br>
+<p class="center-text">Login as Admin</p>  
+  <a [routerLink]="['/adminlogin']">Admin Login</a>
+
+</form>
+
+<h2 class="my_error">{{error}}</h2>

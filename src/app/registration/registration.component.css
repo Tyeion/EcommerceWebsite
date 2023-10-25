@@ -1,0 +1,229 @@
+.container {
+
+  display: flex;
+  
+  flex-direction: column;
+  
+  align-items: center;
+  
+  justify-content: center;
+  
+  margin: auto;
+  
+  height: 100vh; /* Centers the container vertically */
+  
+  background-color: #f5f5f5; /* Light gray background color */
+  
+  font-family:Georgia, 'Times New Roman', Times, serif; /* Change the font */
+  
+  }
+  
+  h2{
+  
+  margin-left: 40%;
+  
+  }
+  
+  .customer_info {
+  
+  max-width: 400px;
+  
+  margin: 0 auto;
+  
+  padding: 40px;
+  
+  border: 1px solid #ccc;
+  
+  border-radius: 5px;
+  
+  background-color: #f9f9f9;
+  
+  }
+  
+  .customer_info label {
+  
+  display: block;
+  
+  margin-bottom: 5px;
+  
+  font-weight: bold;
+  
+  }
+  
+  .customer_info input {
+  
+  width: 100%;
+  
+  padding: 10px;
+  
+  margin-bottom: 10px;
+  
+  border: 1px solid #ccc;
+  
+  border-radius: 3px;
+  
+  box-sizing: border-box;
+  
+  }
+  
+  .customer_info input:focus {
+  
+  border-color: #007BFF;
+  
+  }
+  
+  .invalid-feedback {
+  
+  color: red;
+  
+  font-size: 12px;
+  
+  }
+  
+  .btn {
+  
+  padding: 8px 16px;
+  
+  font-size: 16px;
+  
+  width: auto;
+  
+  }
+  
+  .form-container {
+  
+  max-width: 400px;
+  
+  padding: 20px;
+  
+  border: 1px solid #ccc; /* Light gray border */
+  
+  border-radius: 15px; /* More curved edges */
+  
+  background-color: #fff;
+  
+  box-shadow: 0 0 10px rgba(104, 165, 19, 0.2);
+  
+  text-align: center;
+  
+  margin: auto;
+  
+  }
+  
+  h2 {
+  
+  margin-bottom: 20px;
+  
+  color: #3498db; /* Blue header text */
+  
+  }
+  
+  label {
+  
+  display: block;
+  
+  font-weight: bold;
+  
+  color: #555; /* Dark gray label text */
+  
+  }
+  
+  .btn {
+  
+  background-color: white; /* White background */
+  
+  color: #2cca63; /* Light blue text color */
+  
+  padding: 10px 10px;
+  
+  border: 2px solid #2cca63; /* Border with similar color to text */
+  
+  border-radius: 8px; /* Rounded corners for a bold curve */
+  
+  cursor: pointer;
+  
+  width: 23%;
+  
+  transition: background-color 0.2s;
+  
+  font-size: 16px;
+  
+  font-weight: bold;
+  
+  margin-top: 20px;
+  
+  margin-left:38%;
+  
+  font-family: "Roboto", sans-serif; /* Use the Roboto font */
+  
+  /* margin: auto; */
+  
+  }
+  
+  .head_btn:hover {
+  
+  /* Border with similar color to text */
+  
+  background-color: #3bbcc5; /* Darker blue background on hover */
+  
+  color: #fff;
+  
+  border-color: #fff;
+  
+  }
+  
+  /* Container for the buttons */
+  
+  .user-type-buttons {
+  
+  text-align: center; /* Center-align the buttons */
+  
+  }
+  
+  .btn:hover {
+  
+  background-color: grey; /* Light blue background on hover */
+  
+  color: #fff; /* Light blue text color on hover */
+  
+  border-color: #fff;
+  
+  }
+  
+  .error-message {
+  
+  color: red;
+  
+  margin-top: 10px;
+  
+  font-size: 16px;
+  
+  font-weight: bold;
+  
+  }
+  
+  .login-link {
+  
+  margin-top: 20px;
+  
+  font-size: 16px;
+  
+  color: #555; /* Dark gray link text */
+  
+  }
+  
+  .login-link a {
+  
+  color: #3498db;
+  
+  text-decoration: none;
+  
+  font-weight: bold;
+  
+  }
+  
+  .login-link a:hover {
+  
+  text-decoration: underline;
+  
+  }

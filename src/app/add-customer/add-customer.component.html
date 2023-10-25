@@ -1,0 +1,69 @@
+<div class="container mt-5">
+
+    <h2 class="header display-4">Add /Update Customer</h2>
+    <form (submit)="onSubmit()">
+        <div class="form-group">
+            <label for="productName">Customer Id:</label>
+            <input type="text" id="productName" class="form-control" [(ngModel)]="newCustomer.id" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="productName">UserName:</label>
+            <input type="text" id="productName" class="form-control" [(ngModel)]="newCustomer.username" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="productDescription">Password:</label>
+            <textarea id="productDescription" class="form-control" [(ngModel)]="newCustomer.password"
+                name="description" required></textarea>
+        </div>
+        <div class="form-group">
+
+ 
+
+ 
+
+ 
+
+            <label for="productImageUrl">Email:</label>
+
+            <input type="text" id="productImageUrl" class="form-control" [(ngModel)]="newCustomer.email"
+
+ 
+
+                name="imageUrl" required>
+        </div>
+        <div class="form-group">
+
+ 
+
+ 
+
+ 
+
+            <label for="productPrice">MobileNo</label>
+
+ 
+
+ 
+
+ 
+
+            <input type="number" id="productPrice" class="form-control" [(ngModel)]="newCustomer.mobileNo" name="mobileNo"
+
+ 
+
+                required>
+
+ 
+
+ 
+
+ 
+
+        </div>
+
+        <br>
+        <button type="submit" class="btn btn-primary">Add / Update Customer</button>
+
+    </form>
+
+</div>

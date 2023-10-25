@@ -1,0 +1,115 @@
+/* Apply styles to the overall cart container */
+
+.cart-container {
+
+  max-width: 800px;
+  
+  margin: 0 auto;
+  
+  padding: 20px;
+  
+  }
+  
+  /* Style the cart item */
+  
+  .cart-item {
+  
+  display: flex;
+  
+  padding: 10px;
+  
+  margin-bottom: 10px;
+  
+  border: 1px solid #ccc;
+  
+  background-color: #fff;
+  
+  }
+  
+  /* Style the cart item image */
+  
+  .cart-item-image img {
+  
+  margin-right: 20px;
+  
+  }
+  
+  /* Style the cart item details */
+  
+  .cart-item-details {
+  
+  flex: 1;
+  
+  }
+  
+  /* Style the cart item title */
+  
+  .cart-title {
+  
+  font-weight: bold;
+  
+  font-size: 18px;
+  
+  }
+  
+  /* Style the cart item name */
+  
+  .cart-name {
+  
+  font-size: 16px;
+  
+  margin-top: 5px;
+  
+  }
+  
+  /* Style the cart item description */
+  
+  .cart-description {
+  
+  font-size: 14px;
+  
+  margin-top: 5px;
+  
+  color: #555;
+  
+  }
+  
+  /* Style the cart item price */
+  
+  .cart-price {
+  
+  font-size: 16px;
+  
+  margin-top: 5px;
+  
+  }
+  
+  /* Style the cart item remove button */
+  
+  .cart-item-button .class-button {
+  
+  padding: 10px 20px;
+  
+  font-size: 14px;
+  
+  background-color: #982424;
+  
+  margin-left:75%;
+  
+  color: #fff;
+  
+  border: none;
+  
+  border-radius: 5px;
+  
+  cursor: pointer;
+  
+  }
+  
+  /* Style the cart item remove button on hover */
+  
+  .cart-item-button .class-button:hover {
+  
+  background-color: #e04040;
+  
+  }

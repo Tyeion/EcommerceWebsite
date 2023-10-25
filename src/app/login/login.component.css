@@ -1,0 +1,108 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+.topbar{
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 4px;
+}
+.topbar h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin-left: 38%;
+}
+.center-text {
+  text-align: center; /* Center align the text */
+}
+
+
+h3 {
+  font-size: 24px;
+  color: #3498db;
+  margin-bottom: 20px;
+  padding-left: 40%;
+}
+
+.login_details {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:rgb(245, 242, 242);
+  margin-bottom: 20px;
+}
+
+.login_details label {
+  display: block;
+  
+  
+}
+
+.login_details input {
+  width: 100%;
+  padding: 10px;
+  
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.login_details input:focus {
+  border-color: #007BFF;
+}
+
+
+
+.btn {
+  background-color: #fff; /* White background */
+  color: #2cca63; /* Light blue text color */
+  padding: 10px 10px;
+  
+  border: 2px solid #2cca63; /* Border with similar color to text */
+  border-radius: 8px; /* Rounded corners for a bold curve */
+  cursor: pointer;
+  width: 25%;
+
+  transition: background-color 0.2s;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  margin-left: 37%;
+  font-family: "Roboto", sans-serif; /* Use the Roboto font */
+}
+
+.btn:hover {
+  background-color: #2cca63; /* Light blue background on hover */
+
+  color: #fff; /* Light blue text color on hover */
+}
+
+h2 {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+.my_error{
+  text-align: center;
+  color: lightcoral;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+}
+
+.admin_header{
+  margin-left: -30px;
+}
